@@ -17,11 +17,12 @@ jQuery(document).ready(function($) {
         })
     })
 
-    $('.prestation_web').slick({
+    $('.site_type').slick({
         infinite: true
     });
-    $('.conceptionweb').slick({
-        infinite: true
+    $('.concept_web').slick({
+        infinite: true,
+        slidesToShow: 3
     });
     $('.prestation_web').slick({
         infinite: true

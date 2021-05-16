@@ -74,10 +74,13 @@ $header = function($title = "Site Agency Neoticon") {
             <link rel="stylesheet" href="assets/pre-styles/pre-styles.min.css">
             <link rel="stylesheet" href="assets/css/styles.css">
 
+            <script src="<?php echo HOME ?>assets/javascript/vector.js"></script>
+
             <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 
         </head>
         <body class="px-lg-10 px-sm-2 py-sm-2 py-lg-7-n-5">
+        <div class="page-wrapper"></div>
     <?php
     $head = ob_get_clean();
     echo $head;
@@ -91,6 +94,7 @@ $footer = function() {
         </body>
         <script src="<?php echo HOME ?>assets/javascript/jquery.min.js"></script>
         <script src="<?php echo HOME ?>assets/javascript/script.js"></script>
+        <script src="<?php echo HOME ?>assets/javascript/main.js"></script>
 
         <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
         </html>

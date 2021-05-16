@@ -11,7 +11,7 @@ $header();
         <div class="row height-100 mb-5">
             <div class="col-7 pt-15 px-0 contact-rows">
                 <div id="siteweb" class="prestations_sections pt-5 show">
-                    <div class="prestation_web">
+                    <div class="prestation_web site_type">
                         <div class="site_slick">
                             <img src="assets/images/home.png" width="100%" alt="">
                         </div>
@@ -27,18 +27,18 @@ $header();
                     </div>
                 </div>
                 <div id="conceptionweb" class="prestations_sections pt-5">
-                    <div class="conceptionweb">
+                    <div class="prestation_web concept_web">
                         <div class="site_slick">
-                            <img src="assets/images/home.png" width="100%" alt="">
+                            <img src="assets/images/site1.png" width="100%" alt="">
                         </div>
                         <div class="site_slick">
-                            <img src="assets/images/home.png" width="100%" alt="">
+                            <img src="assets/images/site2.png" width="100%" alt="">
                         </div>
                         <div class="site_slick">
-                            <img src="assets/images/home.png" width="100%" alt="">
+                            <img src="assets/images/site3.png" width="100%" alt="">
                         </div>
                         <div class="site_slick">
-                            <img src="assets/images/home.png" width="100%" alt="">
+                            <img src="assets/images/site1.png" width="100%" alt="">
                         </div>
                     </div>
                 </div>
